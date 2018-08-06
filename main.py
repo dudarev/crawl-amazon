@@ -44,6 +44,7 @@ def init_driver():
     if RUN_AS_HEADLESS:
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
     driver = webdriver.Chrome(chrome_options=options)
     driver.set_window_size(1120, 750)
     return driver
