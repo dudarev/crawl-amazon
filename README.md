@@ -1,4 +1,4 @@
-A tool to crawl amazon search results.
+A Python command line tool that scrapes data from Amazon.
 
 
 ## Setup to run without Docker
